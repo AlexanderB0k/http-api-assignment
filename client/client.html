@@ -10,7 +10,7 @@
   let message = '';
 
   const text = await response.text();
-  console.log(text); // ✅ Print raw JSON or XML BEFORE parsing
+  console.log(text); 
 
   if(type === 'application/json') {
     const data = JSON.parse(text);
