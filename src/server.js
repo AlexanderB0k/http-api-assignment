@@ -24,7 +24,7 @@ const onRequest = (request, response) => {
 
   // Default the response to a json 
   let acceptedTypes = ['application/json'];
-  
+  //Updated
   if (request.headers.accept) {
     acceptedTypes = request.headers.accept.split(',').map(type => type.trim());
   }
